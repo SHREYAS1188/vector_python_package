@@ -9,7 +9,7 @@ def readme():
 setup(
     name="myvectors",
     packages=["myvectors"],
-    version="0.1",
+    version="0.2",
     description=" Exploring VECTOR Mathematics ",
     long_description=readme(),
     long_description_content_type="text/markdown",
