@@ -14,7 +14,7 @@ setup(
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/SHREYAS1188/vector_python_package",
-    download_url = "https://github.com/SHREYAS1188/vector_python_package/archive/0.1.tar.gz",
+    download_url = "https://github.com/SHREYAS1188/vector_python_package/archive/0.2.tar.gz",
     author="Shreyas Potdar",
     author_email="shreyasmp2001@gmail.com",
     license="MIT",
