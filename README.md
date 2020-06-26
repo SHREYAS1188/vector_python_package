@@ -77,3 +77,18 @@ from myvector impotrt collinear3
 collinear3(A,B,C)
  ```
 Output : If collinear then output is 1 else 0
+
+##### 9. Scalar Triple Product : if three vectors A,B,C then there scalar triple product is =((AXB)dotproduct(C))
+A=[1,2,3] B=[11,8,12] C=[10,5,7]
+```python
+from myvector impotrt s_triplepro
+s_triplepro(A,B,C)
+ ```
+
+##### 10. Vector Triple Product : if three vectors A,B,C then there scalar triple product is =((AXB)XC)
+A=[1,2,3] B=[11,8,12] C=[10,5,7]
+```python
+from myvector impotrt v_triplepro
+v_triplepro(A,B,C)
+ ```
+
