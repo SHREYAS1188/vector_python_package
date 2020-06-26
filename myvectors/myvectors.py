@@ -59,3 +59,9 @@ def collinear3(v1,v2,v3):
                 return 1
         else:
                 return 0
+
+def s_triplepro(v1,v2,v3)
+        return(dot(cross(v1,v2),v3))
+
+def v_triplepro(v1,v2,v3)
+        return(cross(cross(v1,v2),v3))
