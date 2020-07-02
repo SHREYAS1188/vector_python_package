@@ -1,8 +1,7 @@
 import math
 
 def mag(vec):
-        x, y, z = vec
-        k = (x**2 + y**2 + z**2) ** 0.5
+        k = sum(n ** 2 for n in vec) ** 0.5
         return round(k, 4)
 
 def dot(v1, v2):
