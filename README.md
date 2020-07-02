@@ -1,29 +1,25 @@
-[![Downloads](https://pepy.tech/badge/myvectors/week)](https://pepy.tech/project/myvectors/week) and counting
-# vector_python_package
-A python package for vector maths
+# Vector Python Package
+[![Downloads](https://pepy.tech/badge/myvectors/week)](https://pepy.tech/project/myvectors/week)\
+A python package for vector maths.
 
-Installation of the Package
-
-``` python
+Installation of the Package:
+```python
 pip install myvectors 
 ```
-
-having installed math python library makes the things smoother 
+Having installed the `math` python library makes things go more smoothly.
 
 ## Package Functionalities
+Vectors are represented by `lists` in the package. \
+Ex: if `v(2, 3, 4)` is a vector at `(2, 3, 4)` in space then it should be written as `v1 = [2, 3, 4]` where `v1` is a `list`. 
 
-### The vector is represented by **LIST[data structure]** in the package 
-
-#### ex: if v(2,3,4) is a vector at (2,3,4) in space then it should be written as v1=[2,3,4] where v1 is a list 
-
-##### 1.Magnitude of a vector :    A=[2,3,4] magnitude of a given vector
+##### 1. Magnitude of a vector:    A=[2,3,4] magnitude of a given vector
 ``` python
 from myvector import mag
 mag(A)
 ```
 Output : float number
 
-##### 2. Dot product : A=[2,3,4]  B = [1,1,2] 
+##### 2. Dot product: A=[2,3,4]  B = [1,1,2] 
 Arguments : two vectors whose dot product is required
 ``` python
 from myvector import dot
@@ -36,7 +32,7 @@ Arguments : two vectors whose cross product is required
 from myvector import cross
 cross(A,B)
 ```
-##### 4.Projection : A=[1,4,0] B=[4,2,4]
+##### 4. Projection : A=[1,4,0] B=[4,2,4]
 Arguments : two vectors here first vector passed as argument is projected over the second vector
 ```python
 from myvector import projection
@@ -44,7 +40,7 @@ projection(A,B)
 ```
 Output : number i.e projection of A on B
 
-##### 5.Angle : A=[3,4,-1] B=[2,-1,1] 
+##### 5. Angle : A=[3,4,-1] B=[2,-1,1] 
 Arguments : two vectors , cos/sin , mode(if mode = 0 then angle is in terms of **radian** if mode = 1 then **degrees**)
 ```python
 from myvector import angle
@@ -61,7 +57,7 @@ trianglearea(A,B,C)
 ```
 Output : Area
 
-##### 7.sectionsutram : divide the line joining two points in the ratio r1:r2
+##### 7. sectionsutram : divide the line joining two points in the ratio r1:r2
 A=[2,3,4] B=[4,1,-2]
 
 Arguments : two vectors, ei representing type of division ('e'= external and 'i' = internal),r1,r2 
