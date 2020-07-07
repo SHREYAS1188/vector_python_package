@@ -1,6 +1,8 @@
 
 # vector_python_package
+
 [![Downloads](https://pepy.tech/badge/myvectors)](https://pepy.tech/project/myvectors)and counting
+
 A python package for vector maths
 
 Installation of the Package
