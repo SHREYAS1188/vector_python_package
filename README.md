@@ -3,6 +3,8 @@
 
 [![Downloads](https://pepy.tech/badge/myvectors)](https://pepy.tech/project/myvectors)and counting
 
+[[Youtube Playlist link : Click here](https://youtube.com/playlist?list=PL6LEAq5DrlOScWUPGQ4YHr-naw-H7OtKz)]
+
 [[Youtube Video link : Click here](https://youtu.be/Tr-d4uQIgqU)]
 
 [[Example notebook colab link : Click here](https://colab.research.google.com/drive/1brLl8gHiW6yGqMwDKUrsOXMXHm5I_MBW?usp=sharing)]
