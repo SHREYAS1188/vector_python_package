@@ -3,6 +3,8 @@
 
 [![Downloads](https://pepy.tech/badge/myvectors)](https://pepy.tech/project/myvectors)and counting
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](http://buymeacoffee.com/shreyasapp9)                
+
 [[Youtube myvectos Playlist link : Click here](https://youtube.com/playlist?list=PL6LEAq5DrlOScWUPGQ4YHr-naw-H7OtKz)]
 
 [[Youtube myvectors introductory Video link : Click here](https://youtu.be/Tr-d4uQIgqU)]
