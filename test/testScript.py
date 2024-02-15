@@ -1,12 +1,12 @@
 import unittest
-import math
-from myvectors.myvectors import mag,dot,cross,projection,angle,trianglearea,sectionsutram,collinear3,s_triplepro,v_triplepro
+from myvectors.myvectors import mag,dot,cross,projection,angle,trianglearea,sectionsutram,collinear3,s_triplepro,v_triplepro,draw_vector,direction_Cosine
 
 class  testScript(unittest.TestCase):
   def test_mag(self):
     A=[2,3,4]
-    result = sum(data)
-    self.assertEqual(result, math.sqrt(29))
+    result = mag(A)
+    expected_result = 5.3852
+    self.assertEqual(result, expected_result)
 
   def test_dot(self):
     A=[2,-3,4]  
@@ -18,7 +18,8 @@ class  testScript(unittest.TestCase):
     A=[2,-3,4]  
     B = [1,1,2]
     result = cross(A,B)
-    self.assertEqual(result,1)
+    expected_result = [-10, 0, 5]
+    self.assertEqual(result,expected_result)
 
   def test_projection(self):
     A=[1,4,0]
@@ -47,7 +48,7 @@ class  testScript(unittest.TestCase):
     B=[4,1,-2]
     r1 = 1
     r2 = 2
-    ei = i
+    ei = 'i'
     result = sectionsutram(A,B,ei,r1,r2)
     expectedResult = [-0.0, 5.0, 10.0]
     self.assertEqual(result, expectedResult)

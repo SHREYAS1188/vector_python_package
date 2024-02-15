@@ -1,4 +1,9 @@
-import math
+import math # used in mag function
+from mpl_toolkits.mplot3d import axes3d   # used in draw_vector function 
+import matplotlib.pyplot as plt   # used in draw_vector function
+import numpy as np   # used in draw_vector function
+#%matplotlib inline   # used in draw_vector function
+
 
 def mag(v1):
         k = math.sqrt(pow(v1[0],2)+pow(v1[1],2)+pow(v1[2],2))
@@ -65,3 +70,50 @@ def s_triplepro(v1,v2,v3):
 
 def v_triplepro(v1,v2,v3):
         return(cross(cross(v1,v2),v3))
+
+'''
+edit 2 continues
+13:35 hours 
+07 april 2021
+'''
+
+def draw_vector(v1):
+
+        fig1 = plt.figure()
+        ax = fig1.gca(projection='3d')
+
+        x = v1[0]
+        y = v1[1]
+        z = v1[2]
+
+        u = np.sin(np.pi * x) * np.cos(np.pi * y) * np.cos(np.pi * z)
+        v = -np.cos(np.pi * x) * np.sin(np.pi * y) * np.cos(np.pi * z)
+        w = (np.sqrt(2.0 / 3.0) * np.cos(np.pi * x) * np.cos(np.pi * y) * np.sin(np.pi * z))
+
+        ax.quiver(x, y, z, u, v, z, length=0.1, normalize=True)
+        ax.set_title(' Vector Visualization in 3D space')
+        ax.set_xlabel(' X - AXIS ')
+        ax.set_ylabel(' Y - AXIS ')
+        ax.set_zlabel(' Z - AXIS ')
+
+        plt.show()
+
+
+'''
+edit 3 continues
+18:35 hours 
+11 january 2023
+'''
+
+def direction_Cosine(v1):
+        
+	ans = [0.0,0.0,0.0]
+
+	den = math.sqrt(pow(v1[0],2)+pow(v1[1],2)+pow(v1[2],2))
+
+	ans[0] = v1[0]/den
+	ans[1] = v1[1]/den
+	ans[2] = v1[2]/den
+
+	return (ans)
+
