@@ -81,5 +81,5 @@ class  testScript(unittest.TestCase):
     self.assertEqual(result,expected_result)
   
   def test_dot(self):
-  if __name__ == '__main__':
-    unittest.main()
+    if __name__ == '__main__':
+      unittest.main()
